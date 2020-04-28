@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using CarGalleryApp.Custom;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace CarGalleryApp.Models
 
         [BsonElement("Year")]
         [Required]
+        [YearRange]
         public int Year { get; set; }
 
         [BsonElement("Price")]
