@@ -30,7 +30,7 @@ namespace CarGalleryApp.Models
         public int Year { get; set; }
 
         [BsonElement("Price")]
-        [Display(Name = "Price($)")]
+        [Display(Name = "Price(INR)")]
         [DisplayFormat(DataFormatString = "{0:#,0}")]
         public decimal Price { get; set; }
 
