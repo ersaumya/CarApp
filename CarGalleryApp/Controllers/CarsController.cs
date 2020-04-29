@@ -106,24 +106,41 @@ namespace CarGalleryApp.Controllers
             }
             catch
             {
-                return View(car);
+                return View();
             }
         }
 
         // GET: Cars/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(string id)
         {
-            return View();
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var car = _carService.Get(id);
+            if (car == null)
+            {
+                return NotFound();
+            }
+            return View(car);
         }
 
         // POST: Cars/Delete/5
-        [HttpPost]
+        [HttpPost,ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteConfirmed(string id)
         {
             try
             {
-                // TODO: Add delete logic here
+                var car = _carService.Get(id);
+
+                if (car == null)
+                {
+                    return NotFound();
+                }
+
+                _carService.Remove(car.Id);
 
                 return RedirectToAction(nameof(Index));
             }

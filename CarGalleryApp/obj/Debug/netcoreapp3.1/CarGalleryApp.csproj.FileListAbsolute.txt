@@ -116,3 +116,4 @@ F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Ind
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Create.cshtml.g.cs
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Edit.cshtml.g.cs
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Details.cshtml.g.cs
+F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Delete.cshtml.g.cs
