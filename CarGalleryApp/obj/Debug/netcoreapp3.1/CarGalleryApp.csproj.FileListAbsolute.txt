@@ -114,3 +114,4 @@ F:\code\CarGalleryApp\CarGalleryApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Co
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\CarGalleryApp.MvcApplicationPartsAssemblyInfo.cache
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Index.cshtml.g.cs
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Create.cshtml.g.cs
+F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Edit.cshtml.g.cs
