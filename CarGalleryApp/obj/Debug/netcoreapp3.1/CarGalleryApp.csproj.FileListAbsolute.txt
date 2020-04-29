@@ -115,3 +115,4 @@ F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\CarGalleryApp.MvcApp
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Index.cshtml.g.cs
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Create.cshtml.g.cs
 F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Edit.cshtml.g.cs
+F:\code\CarGalleryApp\CarGalleryApp\obj\Debug\netcoreapp3.1\Razor\Views\Cars\Details.cshtml.g.cs
